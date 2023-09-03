@@ -1,51 +1,81 @@
-# Teste Econverse: Vaga Desenvolvedor Front-End Jr
+  <img src="./src/components/img/logo.png">
+
+<h2><span style="color:blue">
+Project - E-commerce</h2>
+<h2><span style="color:blue">
+Conheça Todas etapas desse Novo projeto</span></h2>
+
+<img src="icon.png" align="right" />
+
+<span style="color:blue">
+Acompanhe os novos Commits das tecnologias que estou aperfeiçoando</span>
 
 
-Welcome to **Teste Econverse: Vaga Desenvolvedor Front-End Jr**! This guide will walk you through the process of installing the necessary dependencies and running the app on your local machine.
+<h1><span style="color:blue">
+<font size=30>Índice e Etapas Construídas</font></span></h1>
 
-## Prerequisites
+📜 Para a confecção do site, as principais ferramentas utilizadas, foram:
 
-Before you begin, make sure you have the following installed on your system:
+<kbd>***React***</kbd> | <kbd>***TypScript***</kbd> | <kbd>***Vite***</kbd> 
 
-- [Node.js](https://nodejs.org/) (version >= 12.0.0)
-- [npm](https://www.npmjs.com/) (usually comes with Node.js installation)
-- [Git](https://git-scm.com/)
 
-## Installation
+```javascript
+|         Javascript            |
+| ----------------------------- | 
+| React                         |
+| TypScript                     |
+| lucide-react                  |  
+| TabItem                       |  
+| framer motion                 | 
+| Pattern                       | 
+| Context                       | 
+| useId                         | 
+| useMemo                       | 
 
-1. Clone this repository to your local machine using Git:
 
-```bash
-   git clone https://github.com/viniciuslpi/teste-front-end-jr.git
+
+
+
 ```
-2. Navigate to the project directory:
 
-```bash
-    cd teste-front-end-jr
-    cd teste-front-end-jr
-```
 
-3. Install the project dependencies using npm:
+Acesso o Site pelo link:
+"https://hercules-ferreira.github.io/e-commerce"
 
-```bash
-    npm install
-```
 
-## Running the App
-Once you've installed the dependencies, you can run the React app using the following command:
+<h1><span style="color:blue">
+<font size=30>📋 Metas
+</font></span></h1>
 
-```bash
-    npm start
-```
+> :construction: Novas Versões do Site :construction:
 
-This command starts the development server and opens the app in your default web browser. Any changes you make to the source code will automatically reload the app.
+📌 [Objetivos](https://github.com/ai/size-limit#readme) aprimorar integração com o back-end- MySQL
 
-## Building for Production
-To build the app for production, use the following command:
+<h1><span style="color:blue">
+<font size=30>📋 License
+</font></span></h1>
 
-```bash
-    npm run build
-```
-    
-This command creates an optimized and minified version of your app in the build directory.
+[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
+To the extent possible under law, Hercules Ferreira Ribeiro has waived all copyright and related or neighboring rights to this work.
+
+<h1><span style="color:blue">
+<font size=30>🐛 Issues</font></span></h1>
+
+Contate me através do github
+
+<h1><span style="color:blue">
+<font size=30>🚀 Contribuição
+</font></span></h1>
+
+1. Faça o _fork_ do projeto
+2. Crie uma _branch_ para sua modificação (`git checkout -b meu-novo-recurso`)
+3. Faça o _commit_ (`git commit -am 'Adicionando um novo recurso...'`)
+4. _Push_ (`git push origin meu-novo-recurso`)
+5. Crie um novo _Pull Request_
+
+**Happy coding!** :heart:
+
+ <br>
+
+[Back to top](#faqs)
