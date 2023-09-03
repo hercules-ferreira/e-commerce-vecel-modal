@@ -1,4 +1,5 @@
 // import { Icons } from "../../Icons";
+import { Icons } from "../../Icons";
 import styles from "./MainHeader.module.css";
 import { Link } from "react-router-dom";
 
@@ -6,28 +7,24 @@ const MainHeader = () => {
   return (
     <section className={styles.container}>
       <div className={styles.logo}>
-        {/* <Icons className="icons" svg="magnifyingGlass" /> */}
-
-        {/* <img src="src\assets\header\Group 35.svg" alt="" /> */}
         <img className={styles.logo} src="src\components\img\logo.png" alt="" />
       </div>
       <div className={styles.input_search}>
         <input type="text" placeholder="O que você está buscando?" />
         <img src="src\assets\header\MagnifyingGlass.svg" alt="" />
-        {/* <Icons className="icons" svg="magnifyingGlass" /> */}
       </div>
       <div className={styles.actions}>
         <Link to="/">
-          <img src="src\assets\header\Group.svg" alt="" />
+          <Icons className="icons" svg="group" />
         </Link>
         <Link to="/">
-          <img src="src\assets\header\Heart.svg" alt="" />
+          <Icons className="icons" svg="heart" />
         </Link>
         <Link to="/">
-          <img src="src\assets\header\UserCircle.svg" alt="" />
+          <Icons className="icons" svg="userCircle" />
         </Link>
         <Link to="/">
-          <img src="src\assets\header\ShoppingCart.svg" alt="" />
+          <Icons className="icons" svg="shoppingCart" />
         </Link>
       </div>
     </section>
