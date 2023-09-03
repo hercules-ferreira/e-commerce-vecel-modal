@@ -60,7 +60,7 @@ export const ProductsCarousel = () => {
       <div>
         <div className={styles.productsCarousel}>
           <img
-            src="src/assets/carrousel/smartphone.png"
+            src="src\assets\carrousel\smartphone.png"
             width={100}
             height={100}
             alt="Product 1"
