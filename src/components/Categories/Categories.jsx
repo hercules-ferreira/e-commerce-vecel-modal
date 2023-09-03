@@ -1,4 +1,4 @@
-import { Icons } from "../../../components/Icons";
+import { Icons } from "../Icons";
 // import "./Categories.module.css";
 import styles from "./Categories.module.css"; // Importe corretamente o módulo CSS com um nome (styles)
 
