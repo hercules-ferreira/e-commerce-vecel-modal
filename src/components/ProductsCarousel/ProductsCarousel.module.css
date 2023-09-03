@@ -1,41 +1,119 @@
-/* ProductsCarousel.module.css */
 
 .containerProducts {
   display: flex;
-  justify-content: space-evenly; /* Espaçamento igual entre os produtos */
+  justify-content: space-evenly;
   flex-wrap: wrap;
+ max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .productContainer {
   text-align: center;
-  margin: 20px; /* Espaçamento entre os produtos */
   display: flex;
-  flex-direction: column; /* Empilhar conteúdo verticalmente */
-  align-items: center; /* Centralizar horizontalmente */
-  padding: 10px; /* Adicionar algum espaço interno */
+  flex-direction: column; 
+  align-items: center; 
+  padding: 10px; 
 }
 
-.productContainer > img {
-  border-radius: 10px;
-  background: #F4F4F4;
-  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.22);
-  width: 61px;
-  height: 61px;
-  padding: 34px 33px 33px;
+.productsCarousel > img { 
+  width: 247px;
+  height: 228px;
 }
 .productsCarousel {
   border-radius: 10px;
   background: #F4F4F4;
   box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.22);
-  width: 150px;
-  height: 400px;
-  padding: 34px 33px 33px;
+  width: 270px;
+  height: 500px;
   margin-bottom: 3rem;
+  margin-left: auto;
+margin-right: auto;
 }
 
 
-.productContainer > p {
+.title {
+  width: 245px;
+  color: var(--Preto, #3F3F40);
+  font-family: Poppins;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+
+.priceOld {
+  color: #808080;
+  font-family: Poppins;
   font-size: 16px;
-  color: #333;
-  margin-top: 10px; /* Adicione um espaçamento entre a imagem e o texto */
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-decoration-line: strikethrough;
+  text-decoration: line-through; /* Adicione uma linha no texto */
 }
+
+
+.priceNew {
+  color: var(--Preto, #3F3F40);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+
+.description {
+  color: var(--Preto, #3F3F40);
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.delivery{
+  color: var(--rosa-primario, #F71963);
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+.btn {
+  color: #FFF;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+
+  width: 245px;
+height: 44px;
+flex-shrink: 0;
+border-radius: 4px;
+background: var(--rosa-primario, #F71963);
+border: none;
+cursor: pointer;
+
+
+margin-left: 12px;
+
+
+
+
+}
+
+.margin{
+  margin-left: 25px;
+}
+
+.productsCarousel .btn:hover {
+  background: var(--rosa-primario, #8f0030);
+}
+
