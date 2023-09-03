@@ -1,6 +1,13 @@
 import styles from './TopHeader.module.css'
 import { Icons } from "../../Icons/index";
 
+
+//
+// import { Icons } from "../../../components/Icons";
+// import styles from "./Categories.module.css";
+//
+
+
 const TopHeader = () => {
   return (
     <header className={styles.container}>

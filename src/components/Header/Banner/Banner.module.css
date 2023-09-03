@@ -44,7 +44,7 @@
   font-weight: 600;
   line-height: normal;
   border-radius: 5px;
-  background:red;
+  background: var(--rosa-primario, #F71963);
   width: -moz-fit-content;
   width: fit-content;
   cursor: pointer;

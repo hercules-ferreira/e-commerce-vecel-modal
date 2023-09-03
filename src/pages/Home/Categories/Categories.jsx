@@ -1,49 +1,56 @@
-import styles from './Categories.module.css'
+import { Icons } from "../../../components/Icons";
+// import "./Categories.module.css";
+import styles from "./Categories.module.css"; // Importe corretamente o módulo CSS com um nome (styles)
 
-const Categories = () => {
+export const ProductsCategories = () => {
+  const items = [
+    {
+      name: "Tecnologia",
+      path: <Icons className="icons" svg="monitorarTabletSmartphone" />,
+    },
+    {
+      name: "Supermercado",
+      path: <Icons className="icons" svg="supermercados" />,
+    },
+    {
+      name: "Bebidas",
+      path: <Icons className="icons" svg="whiskey" />,
+    },
+    {
+      name: "Ferramentas",
+      path: <Icons className="icons" svg="ferramentas" />,
+    },
+    {
+      name: "Saúde",
+      path: <Icons className="icons" svg="cuidadosDeSaude" />,
+    },
+    {
+      name: "Esportes e Fitness",
+      path: <Icons className="icons" svg="estera" />,
+    },
+    {
+      name: "Moda",
+      path: <Icons className="icons" svg="moda" />,
+    },
+  ];
 
-    const items = [
-        {
-            name: 'Tecnologia',
-            path: 'src/assets/categories/monitorar-tablet-e-smartohone 1.png'
-        },
-        {
-            name: 'Supermercado',
-            path: 'src/assets/categories/supermercados 1.png'
-        },
-        {
-            name: 'Bebidas',
-            path: 'src/assets/categories/whiskey.png'
-        },
-        {
-            name: 'Ferramentas',
-            path: 'src/assets/categories/ferramentas 1.png'
-        },
-        {
-            name: 'Saúde',
-            path: 'src/assets/categories/cuidados-de-saude 1.png'
-        },
-        {
-            name: 'Esportes e Fitness',
-            path: 'src/assets/categories/corrida 1.png'
-        },
-        {
-            name: 'Moda',
-            path: 'src/assets/categories/moda 1.png'
-        },
-    ]
-
-    return (
-        <section className={styles.container}>
-            {items.map((item, index) => (
-                <div key={index}>
-                    <img src={item.path} alt="" />
-                    <p>{item.name}</p>
-                </div>
-            ))}
-
-        </section>
-    )
-}
-
-export default Categories
+  return (
+    <section className={styles.containerProducts}>
+      {items.map((item, index) => (
+        <div
+          key={index}
+          className={`${index === 0 ? styles.firstDiv : ""} ${
+            index === 0 ? "transparent-bg" : ""
+          }`}
+        >
+          {typeof item.path === "string" ? (
+            <img src={item.path} alt="" />
+          ) : (
+            item.path
+          )}
+          <p>{item.name}</p>
+        </div>
+      ))}
+    </section>
+  );
+};
