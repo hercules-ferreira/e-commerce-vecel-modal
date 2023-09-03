@@ -40,7 +40,7 @@ Acompanhe os novos Commits das tecnologias que estou aperfeiçoando</span>
 
 
 Acesso o Site pelo link:
-"https://hercules-ferreira.github.io/e-commerce"
+https://e-commerce-vecel-modal.vercel.app/
 
 
 <h1><span style="color:blue">
